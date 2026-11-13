@@ -1,9 +1,9 @@
 cask "choo-choo" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.2.1"
-  sha256 arm:   "bb4f08b9020fd24aaaeab4d14f932f3b0088606ddb4130844ed98b105bc91041",
-         intel: "81d1f236562d9899fb37e605f240b26b7184d4b03d9fe54e78ef8a999c824983"
+  version "0.3.0"
+  sha256 arm:   "8c1db31b28e023f5592bc1783c146a61179ac8e3ca09d5d50da18539d625aabf",
+         intel: "de30420105b1a13c9f4d187a88dbf362923f1e022dea79b05fb9a84f8fd7dfd9"
 
   url "https://github.com/Benbentwo/choo-choo/releases/download/v#{version}/ChooChoo-#{version}-#{arch}.dmg"
   name "Choo Choo"
